@@ -1,9 +1,5 @@
-# web-template
-Gulp-sass + BrowserSync
+# Hitman  Roulette
 
-Just run:
+This project includes the front-end code for the redesign of Hitman Roulette. Original app by TheKotti.
 
-`npm install`
-
-
-`gulp`
+https://thekotti.github.io/hitman.html
