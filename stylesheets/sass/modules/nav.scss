@@ -1,0 +1,66 @@
+/* NAVIGATION */
+
+nav {
+    background: $color-white;
+    height: 100vh;
+    display: flex;
+    flex-direction: column;
+
+    a {
+        color: $color-gray;
+        text-decoration: none;
+        text-transform: uppercase;
+        &:hover {
+            color: $color-red;
+        }
+    }
+
+    #icon-logo{
+        margin: 2.5em 0;
+        text-align: center;
+
+        img {
+            height: 75px;
+            width: 75px;
+        }
+    }
+
+    #nav-items {
+        a {
+            display: flex;
+            align-items: center;
+            height: 3.75em;
+            padding-left: 3.125em;
+            transition: all .15s ease;
+
+            &:hover, &.active {
+                border-left: solid 3px $color-red;
+            }
+        }
+    }
+
+    #contact {
+        height: 100%;
+        margin-bottom: 1.5em;
+        display: flex;
+        flex-direction: column;
+        justify-content: flex-end;
+
+        section {
+            font-size: 0.75em;
+            text-align: center;
+        }
+
+        .contact-links{
+            a {
+                margin: 0 0.25em;
+                font-size: 1.5em;
+            }
+
+            .fab {
+                transition: all .5s ease;
+            }
+
+        }
+    }
+}  

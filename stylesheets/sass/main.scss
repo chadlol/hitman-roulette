@@ -1,9 +1,14 @@
+@import 'utilities/variables.scss';
+@import 'utilities/fontawesome.scss';
 @import 'fonts.scss';
+
+/* MODULES */ 
 
 @import 'modules/nav.scss';
 @import 'modules/header.scss';
 
-// RESET
+
+/* RESET */
 
 body {
     margin: 0;
@@ -11,8 +16,11 @@ body {
     box-sizing: border-box;
 }
 
-// GLOBAL
+/* GLOBAL */
 
 body {
     font-family: 'Avenir Next';
+    display: grid;
+    grid-template-columns: 225px 1fr;
 }
+
